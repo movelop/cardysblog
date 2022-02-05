@@ -1,7 +1,7 @@
 
 import { useRouter } from 'next/router';
 import { getPosts, getPostDetails } from "../../services";
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm } from '../../components';
+import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader } from '../../components';
 import { AdjacentPosts } from "../../sections";
 import Head from 'next/head';
 const PostDetails = ({ post }) => { 
